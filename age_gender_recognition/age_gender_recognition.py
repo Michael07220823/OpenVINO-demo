@@ -74,3 +74,5 @@ while grabbed:
     fps = frameID / (time.time() - start_time)
     print("FPS:", fps)
     cv2.waitKey(1)
+
+cv2.destroyAllWindows()
